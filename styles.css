@@ -192,11 +192,12 @@ form button:hover {
     }
 
     nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
 
     nav a {
-        flex: 1;
         text-align: center;
     }
 
